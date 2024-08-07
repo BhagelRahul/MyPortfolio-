@@ -1,0 +1,56 @@
+.project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 2rem;
+}
+
+
+
+.project-cards {
+    background: #7b84f7;
+    padding: 1.2rem 1rem;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.project-cards {
+    width: 100%;
+}
+
+
+.project-title,
+h2 {
+    color: #fff;
+    padding: 1rem 1rem;
+
+
+}
+
+.pro-details {
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+
+
+
+
+@media screen and (max-width:740px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+
+
+    }
+}

@@ -1,0 +1,69 @@
+container {
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 2rem;
+}
+
+.project {
+    background: #e3eeff;
+    padding: 1.2rem 1rem;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-wrap: wrap;
+
+}
+
+.project {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.project:hover {
+    background-color: rgb(96, 96, 235);
+}
+
+.title,
+h2 {
+    color: #fff;
+    padding: 1rem 1rem;
+
+
+}
+
+
+.language h3 {
+    color: yellow;
+    font-size: 2rem;
+}
+
+.language {
+    color: rgb(18, 18, 4);
+    font-size: 2rem;
+}
+
+.lang {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.lang:hover {
+    color: rgb(196, 196, 221)
+}
+
+
+
+
+
+@media screen and (max-width:740px) {
+    .container {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+
+
+    }
+}
