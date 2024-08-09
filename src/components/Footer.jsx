@@ -40,7 +40,7 @@ function Footer() {
           <div className="Resume">
             <h4>
               <FaFileDownload size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-              <Link to="https://drive.google.com/file/d/1D8XPTLZKNqnLNVmdw46IgmLZS7llGYZA/view?usp=drivesdk" target="_blank" >Download Resume</Link>
+              <Link to="https://drive.google.com/file/d/1opNKiEuRnu_nuTa1vZXjEG_AepvzExqh/view?usp=drivesdk" target="_blank" >Download Resume</Link>
             </h4>
           </div>
         </div>
