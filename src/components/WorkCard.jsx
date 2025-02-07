@@ -34,7 +34,7 @@ function WorkCard() {
                     <img src={resume} alt="image" width={350} height={300} />
                     <h2 className='project-tilte'>Resume Generator App </h2>
                     <div className="pro-details">
-                        <p>Developed a Rusume generator App Using HTML5, CSS3, JavaScript.In this app we can also download the resume in pdf form.  </p>
+                        <p>Developed a Resume generator App Using HTML5, CSS3, JavaScript.In this app we can also download the resume in pdf form.  </p>
                         <div className="pro-btns">
                             <NavLink to="https://bhagelrahul.github.io/Resume-Generator/" className="btn">View</NavLink>
                             <NavLink to="https://github.com/BhagelRahul/Resume-Generator" className="btn">Source</NavLink>

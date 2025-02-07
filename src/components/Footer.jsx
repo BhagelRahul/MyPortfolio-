@@ -49,7 +49,7 @@ function Footer() {
 
           <h4>About the Portfolio</h4>
           <p> This is me Rahul Kumar.
-            Passionate frontend developer with experience in creating dynamic and responsive web applications using React.js.  Always staying updated with the latest trends and best practices in frontend development.
+            I am a motivated and enthusiastic Android developer, eager to leverage my skills in creating dynamic and efficient mobile applications. With a strong foundation in Java and Kotlin, I focus on delivering high-quality, user-friendly experiences. Always eager to learn and grow, I am excited to contribute to innovative projects and expand my expertise in Android development.
           </p>
           <div className="social">
             <FaLinkedin size={30} style={{ color: "#fff", marginRight: "2rem" }} onClick={() => handleIconClick('https://www.linkedin.com/in/rahul-kumar-up81?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')} target="_blank" />
